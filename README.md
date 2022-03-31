@@ -34,9 +34,9 @@ https://github.com/wayoda/LedControl
 ## Setup
 Setup esp8266-homekit-display-max7219.ino:
 ```
-int countModules = 4; // max7219 modules count
+int countModules = 1; // max7219 modules count
 int intense = 3; // intense: 8 (default), Range 1 - 16
-int orientation = 3; // orientation: 1 (default), 2 (90°), 3 (180°), 4 (270°)
+int orientation = 1; // rotation: 1 (default), 2 (90°), 3 (180°), 4 (270°)
 int inverted = 0; // inverted: 0 (default), 1 (inverted)
 ```
 
